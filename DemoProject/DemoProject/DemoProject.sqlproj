@@ -63,11 +63,15 @@
     <Folder Include="Security\" />
     <Folder Include="dbo\" />
     <Folder Include="dbo\Stored Procedures\" />
+    <Folder Include="dbo\Tables\" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Storage\BeerFoundation.sql" />
     <Build Include="Security\DESKTOP-72O1H9R_oliviervs.sql" />
     <Build Include="Security\DESKTOP-72O1H9R_oliviervs_1.sql" />
-    <Build Include="dbo\Stored Procedures\sp_init_beer_foundation_db.sql" />
+    <Build Include="dbo\Tables\Supplier.sql" />
+    <Build Include="dbo\Tables\Product.sql" />
+    <Build Include="dbo\Stored Procedures\sp_init_beer_foundation_db_tables.sql" />
+    <Build Include="dbo\Stored Procedures\sp_init_beer_foundation_db_fill_tables.sql" />
   </ItemGroup>
 </Project>
