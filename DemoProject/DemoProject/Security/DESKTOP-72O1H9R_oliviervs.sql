@@ -1,0 +1,2 @@
+﻿CREATE USER [DESKTOP-72O1H9R\oliviervs] FOR LOGIN [DESKTOP-72O1H9R\oliviervs];
+
